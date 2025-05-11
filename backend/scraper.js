@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer')
+import puppeteer from 'puppeteer';
 
 export async function scrapeReviews(url) {
     const browser = await puppeteer.launch({ headless : 'new' });
